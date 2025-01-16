@@ -48,7 +48,7 @@ export default function HowItWorks() {
             ></div>
           </div>
           {timelineEvents.map((event, index) => (
-            <div key={index} className="relative mb-8">
+            <div key={index} className="relative mb-8 ">
               <div 
                 className={`absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full ${
                   index <= activeIndex ? 'bg-purple-600' : 'bg-purple-300'

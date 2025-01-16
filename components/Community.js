@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import Image from 'next/image';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const communityMembers = [
   {
@@ -20,7 +20,7 @@ const communityMembers = [
     category: 'Category',
     problem: 'Looking for solutions that can solve X by doing Y with Z'
   }
-]
+];
 
 export default function Community() {
   return (

@@ -6,6 +6,7 @@ import Sponsors from "@/components/Sponsors";
 import HowItWorks from "@/components/HowItWorks";
 import Judges from "@/components/Judges";
 import Schedule from "@/components/Schedule";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HowItWorks />
         <Judges />
         <Schedule />
+        <FAQ />
       </main>
       <Footer />
     </div>

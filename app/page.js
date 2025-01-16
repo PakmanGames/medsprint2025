@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Community from "@/components/Community";
 import Sponsors from "@/components/Sponsors";
+import Judges from "@/components/Judges";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Community />
         <Sponsors />
+        <Judges />
       </main>
       <Footer />
     </div>

@@ -1,21 +1,21 @@
-'use client'
+'use client';
 
-import { useState, useEffect } from 'react'
-import { Link } from 'react-scroll'
-import { Button } from '@/components/ui/button'
+import { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
+import { Button } from '@/components/ui/button';
 
-const navItems = ['About', 'Community', 'Sponsors', 'Judges', 'Schedule', 'FAQ']
+const navItems = ['About', 'Community', 'Sponsors', 'Judges', 'Schedule', 'FAQ'];
 
 export default function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+      setIsScrolled(window.scrollY > 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>

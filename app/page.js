@@ -1,13 +1,13 @@
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import About from "@/components/About";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
       <main>
-        <h1>medsprint2025</h1>
-        <p>medsprint2025 website</p>
+        <About />
       </main>
       <Footer />
     </div>

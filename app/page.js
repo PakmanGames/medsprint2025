@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <h1>medsprint2025</h1>
         <p>medsprint2025 website</p>
       </main>
+      <Footer />
     </div>
   );
 }

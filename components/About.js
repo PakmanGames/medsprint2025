@@ -20,7 +20,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2">
             <Image
-              src="/"
+              src="/medsprintlogo.png"
               alt="medsprint image"
               width={600}
               height={400}
@@ -32,4 +32,3 @@ export default function About() {
     </section>
   )
 }
-

@@ -20,16 +20,16 @@ export default function Footer() {
               Volunteer Registration
             </Button>
             <div className="flex space-x-4">
-              <Link href="/" className="text-purple-800 hover:text-purple-600">
+              {/* <Link href="/" className="text-purple-800 hover:text-purple-600">
                 <Facebook size={24} />
               </Link>
               <Link href="/" className="text-purple-800 hover:text-purple-600">
                 <Twitter size={24} />
-              </Link>
-              <Link href="/" className="text-purple-800 hover:text-purple-600">
+              </Link> */}
+              <Link href="https://www.instagram.com/macmed_t/" target="_blank" className="text-purple-800 hover:text-purple-600">
                 <Instagram size={24} />
               </Link>
-              <Link href="/" className="text-purple-800 hover:text-purple-600">
+              <Link href="https://www.linkedin.com/company/med-t/" target="_blank" className="text-purple-800 hover:text-purple-600">
                 <Linkedin size={24} />
               </Link>
             </div>

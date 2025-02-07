@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import ContactModal from './ContactModal';
 
 export default function Footer() {
   return (
@@ -18,6 +19,9 @@ export default function Footer() {
             </Button>
             <Button variant="link" className="text-purple-800 hover:text-purple-600">
               Volunteer Registration
+            </Button>
+            <Button className="text-white hover:text-purple-600">
+              <ContactModal />
             </Button>
             <div className="flex space-x-4">
               {/* <Link href="/" className="text-purple-800 hover:text-purple-600">

@@ -1,33 +1,7 @@
 'use client';
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-
-const faqItems = [
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-  {
-    question: 'Question about something that is commonly asked?',
-    answer: 'Heres a long answer that answers the long question that is often commonly asked a lot so this is a length explaination about it'
-  },
-];
+import { faqItems } from '@/data/faq';
 
 export default function FAQ() {
   return (
@@ -37,7 +11,7 @@ export default function FAQ() {
         <Accordion type="single" collapsible className="max-w-2xl mx-auto">
           {faqItems.map((item, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-purple-800 hover:text-purple-600">
+              <AccordionTrigger className="font-bold text-purple-800 hover:text-purple-600">
                 {item.question}
               </AccordionTrigger>
               <AccordionContent className="text-purple-700">

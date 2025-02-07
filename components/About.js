@@ -23,8 +23,8 @@ export default function About() {
           </div>
           <div className="md:w-1/2">
             <Image
-              src="/medsprintlogo.png"
-              alt="medsprint image"
+              src="/medsprint_info.png"
+              alt="Information about MedSprint"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"

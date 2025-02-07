@@ -5,13 +5,13 @@ import { useRef, useEffect, useState } from 'react';
 import { UserPlus, Rocket, Code, Users, Send, Award, Trophy } from 'lucide-react';
 
 const timelineEvents = [
-  { title: 'Registration Opens', description: 'Sign up and form your team', icon: UserPlus },
-  { title: 'Opening Ceremony', description: 'Welcome presentation', icon: Rocket },
-  { title: 'Meet the community Partners', description: 'Learn about the offered challenges and decide on one Community Partner to focus on.', icon: Code },
-  { title: 'Concept Generation', description: 'Brainstorm and come up with a design!', icon: Users },
-  { title: 'Project Submissions', description: 'Submit your solutions for evaluation', icon: Send },
-  { title: 'Judging', description: 'Experts review and score the projects', icon: Award },
-  { title: 'Closing Ceremony', description: 'Winners announced and prizes awarded', icon: Trophy },
+  { title: 'Registration Opens', description: 'Check-in at entrance.', icon: UserPlus },
+  { title: 'Opening Ceremony', description: 'Overview of competition logistics and theme.', icon: Rocket },
+  { title: 'Team Formation', description: 'Teams will select their community partner challenge using a structured process.', icon: Code },
+  { title: 'Workshops, Networking & More', description: 'Attend workshops to learn, network with participants, and get advice from mentors.', icon: Users },
+  { title: 'Project Submissions', description: 'Finalize and submit your solutions for evaluation.', icon: Send },
+  { title: 'Presentations & Judging', description: 'Teams showcase their project through project expo or presentation slides.', icon: Award },
+  { title: 'Awards & Closing Ceremony', description: 'Winners announced and prizes awarded.', icon: Trophy },
 ];
 
 export default function HowItWorks() {

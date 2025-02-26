@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const navItems = ['About', 'Community', 'Sponsors', 'Judges', 'Schedule', 'FAQ'];
 
@@ -26,19 +27,19 @@ export default function Navbar() {
             <ul className="flex space-x-4">
               {navItems.map((item) => (
                 <li key={item}>
-                  <Link
+                  <ScrollLink
                     to={item.toLowerCase()}
                     smooth={true}
                     duration={500}
                     className="cursor-pointer text-purple-800 hover:text-purple-600 transition-colors"
                   >
                     {item}
-                  </Link>
+                  </ScrollLink>
                 </li>
               ))}
             </ul>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white">
-              Register
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeOBvqz2-K5rjymuYmJOIV3vBU3bArpq25kQ8_QKqJqGzlwAw/viewform" target='_blank'>Register Now</Link>
             </Button>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -19,7 +20,9 @@ export default function About() {
               <p>Peter George for Living and Learning (PGCLL), Mezzanine Level</p>
               <p>1280 Main St. W, Hamilton, ON L8S 4L8</p>
             </div>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Register Now</Button>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeOBvqz2-K5rjymuYmJOIV3vBU3bArpq25kQ8_QKqJqGzlwAw/viewform" target='_blank'>Register Now</Link>
+            </Button>
           </div>
           <div className="md:w-1/2">
             <Image

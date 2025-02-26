@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const sponsors = [
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
-  { name: 'MedSprint', logo: '/medsprintlogo.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
+  { name: 'MedSprint', logo: '/coming-soon.png' },
 ];
 
 export default function Sponsors() {

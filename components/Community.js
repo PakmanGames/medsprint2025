@@ -3,22 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const communityMembers = [
   {
-    name: 'Person1',
-    image: '/medsprintlogo.png',
-    category: 'Category',
-    problem: 'Looking for solutions that can solve X by doing Y with Z'
+    name: 'Community Member Revealed Later!',
+    image: '/coming-soon-square.png',
+    category: 'Category Revealed Later',
+    problem: 'More information coming soon.'
   },
   {
-    name: 'Person2',
-    image: '/medsprintlogo.png',
-    category: 'Category',
-    problem: 'Looking for solutions that can solve X by doing Y with Z'
+    name: 'Community Member Revealed Later!',
+    image: '/coming-soon-square.png',
+    category: 'Category Revealed Later',
+    problem: 'More information coming soon.'
   },
   {
-    name: 'Person3',
-    image: '/medsprintlogo.png',
-    category: 'Category',
-    problem: 'Looking for solutions that can solve X by doing Y with Z'
+    name: 'Community Member Revealed Later!',
+    image: '/coming-soon-square.png',
+    category: 'Category Revealed Later',
+    problem: 'More information coming soon.'
   }
 ];
 
